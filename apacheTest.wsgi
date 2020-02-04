@@ -7,4 +7,4 @@ sys.path.insert(0,"/var/www/apacheTest/apacheTest/")
 import logging
 logging.basicConfig(stream=sys.stderr)
 
-from test import app as application
+from apacheTest import app as application
